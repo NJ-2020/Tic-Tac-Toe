@@ -50,7 +50,7 @@ function abi() {
     // pc = #c
 
     patterns[randomIndex - 1] = computerChoice;
-    pc.innerHTML = "o";
+    pc.innerHTML = computerChoice;
   } else {
     return abi();
   }
